@@ -1,11 +1,21 @@
+html {
+    height: 100%;
+}
 body {
+    margin: 0;
+    padding: 0;
     background: linear-gradient(180deg, #1B1B1B 42.62%, #0E0E0E 100%);
     background-attachment: fixed;
+    height: 100%;
+    display: flex;
 }
 
 canvas {
+    width: 764px;
+    height: 764px;
     display: block;
-    margin: 0 auto;
-    border: 20px solid white;
+    margin: auto;
+    border: 20px solid #272727;
     border-radius: 25px;
+    background-color: black;
 }
